@@ -1,0 +1,23 @@
+{
+  "name": "reklem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch style.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkhaldarbekov/reklem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamkhaldarbekov/reklem/issues"
+  },
+  "homepage": "https://github.com/iamkhaldarbekov/reklem#readme",
+  "dependencies": {
+    "sass": "^1.80.6"
+  }
+}
