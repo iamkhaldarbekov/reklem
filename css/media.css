@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 700px;
+  }
+  .nav {
+    padding: 30 34px;
+  }
+  .nav .nav__inner {
+    width: 100%;
+  }
+  .nav .nav__inner .nav__links {
+    display: none;
+  }
+  .header {
+    overflow: hidden;
+  }
+  .main .about img {
+    border-radius: 28px;
+    width: 322px;
+  }
+  .main .ux {
+    height: 907px;
+  }
+  .main .ux .ux__inner .ux__window {
+    top: -40px;
+  }
+  .main .ux .ux__inner .ux__toolbar {
+    top: -16px;
+    left: 510px;
+  }
+  .main .ux .ux__inner .ux__info {
+    top: 150px;
+    padding-top: 240px;
+    padding-left: 384px;
+    left: 0;
+    overflow: hidden;
+  }
+  .main .ux .ux__inner .ux__info .ux__bg {
+    left: -210px;
+  }
+  .main .review .review__inner .review__info {
+    right: 0;
+    top: 0;
+  }
+  .main .review .review__inner .review__info .review__abs {
+    right: 180px;
+  }
+  .main .review .review__inner .rev-btn {
+    top: 270px;
+  }
+  .main .qa .qa__inner .qa__item {
+    width: 322px;
+  }
+  .main .categories .categories__inner .categories__items:last-child {
+    margin-left: 0;
+  }
+  .main .categories .categories__inner .categories__items .categories__item {
+    margin-right: 55px;
+  }
+  .main .categories .categories__inner .categories__items .categories__item:last-child {
+    margin-right: 0;
+  }
+  .main .goods .goods__inner {
+    overflow-x: auto;
+  }
+  .main .goods .goods__inner .goods__item {
+    margin-right: 28px;
+  }
+  .main .services .services__inner .services__item {
+    max-width: 152px;
+  }
+  .main .help {
+    background-color: #10BB87;
+    overflow: hidden;
+  }
+  .main .help .help__inner .help__bg {
+    right: -100px;
+  }
+  .main .help .help__inner .help__info {
+    padding-left: 0;
+  }
+  .main .help .help__inner .help__data {
+    margin-left: 28px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

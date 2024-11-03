@@ -1,0 +1,117 @@
+@media screen and (max-width: 1366px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 700px;
+    }
+    .nav {
+        padding: 30 34px;
+        .nav__inner {
+            width: 100%;
+            .nav__links {
+                display: none;
+            }
+        }
+    }
+    .header {
+        overflow: hidden;
+    }
+    .main {
+        .about {
+            img {
+                border-radius: 28px;
+                width: 322px;
+            }
+        }
+        .ux {
+            height: 907px;
+            .ux__inner {
+                .ux__window {
+                    top: -40px;
+                }
+                .ux__toolbar {
+                    top: -16px;
+                    left: 510px;
+                }
+                .ux__info {
+                    top: 150px;
+                    padding-top: 240px;
+                    padding-left: 384px;
+                    left: 0;
+                    overflow: hidden;
+                    .ux__bg {
+                        left: -210px;
+                    }
+                }
+            }
+        }
+        .review {
+            .review__inner {
+                .review__info {
+                    right: 0;
+                    top: 0;
+                    .review__abs {
+                        right: 180px;
+                    }
+                }
+                .rev-btn {
+                    top: 270px;
+                }
+            }
+        }
+        .qa {
+            .qa__inner {
+                .qa__item {
+                    width: 322px;
+                }
+            }
+        }
+        .categories {
+            .categories__inner {
+                .categories__items {
+                    &:last-child {
+                        margin-left: 0;
+                    }
+                    .categories__item {
+                        margin-right: 55px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .goods {
+            .goods__inner {
+                overflow-x: auto;
+                .goods__item {
+                    margin-right: 28px;
+                }
+            }
+        }
+        .services {
+            .services__inner {
+                .services__item {
+                    max-width: 152px;
+                }
+            }
+        }
+        .help {
+            background-color: #10BB87;
+            overflow: hidden;
+            .help__inner {
+                .help__bg {
+                    right: -100px;
+                }
+                .help__info {
+                    padding-left: 0;
+                }
+                .help__data {
+                    margin-left: 28px;
+                }
+            }
+        }
+    }
+}

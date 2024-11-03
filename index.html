@@ -3,10 +3,496 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/media.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/css/intlTelInput.css">
         <title>Reklem</title>
     </head>
     <body>
-
+        <nav class="nav">
+            <div class="nav__inner">
+                <img src="./assets/icons/logo.svg" alt="logo" class="nav__logo">
+                <div style="display: flex; align-items: center;">
+                    <div class="nav__links">
+                        <button class="nav__links-img"><img src="./assets/icons/burger.svg"></button>
+                        <a href="#" class="nav__links-item">О компании</a>
+                        <a href="#" class="nav__links-item">Каталог</a>
+                        <a href="#" class="nav__links-item">Акции</a>
+                        <a href="#" class="nav__links-item">Услуги</a>
+                        <a href="#" class="nav__links-item">Контакты</a>
+                        <button class="nav__links-img"><img src="./assets/icons/search.svg"></button>
+                    </div>
+                    <div class="nav__buttons">
+                        <button class="nav__buttons-img btn"><img src="./assets/icons/profile.svg"></button>
+                        <button class="nav__buttons-img btn" style="margin-left: 28px;"><img src="./assets/icons/cart.svg"></button>
+                        <button class="nav__buttons-dft btn">Конструктор</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="header__imgs">
+                <img src="./assets/img/tshirt.png">
+                <img src="./assets/img/cup.png">
+                <img src="./assets/img/flash.png">
+                <img src="./assets/img/brusher.png">
+                <img src="./assets/img/gadgets.png">
+            </div>
+            <div class="header__info">
+                <h3 class="header__title">Планируете сделать <abbr>принт?</abbr><br />Вы пришли по адресу</h3>
+                <p class="header__subtitle">Reklem - только оптовая работа высокого качества с<br />индивидуальным подходом. Работаем с 2008 года.</p>
+                <button class="act-btn btn">Оставить заявку</button>
+            </div>
+        </header>
+        <main class="main">
+            <div class="wrapper">
+                <div class="about">
+                    <div>
+                        <h3 class="title"><abbr>Пара слов</abbr> о нас,<br />производстве<br />и брендинге</h3>
+                        <p>В своём стремлении улучшить пользовательский опыт мы упускаем, что ключевые особенности структуры проекта.</p>
+                        <p>В своём стремлении улучшить пользовательский опыт мы упускаем, что ключевые особенности структуры проекта опыт мы упускаем, что ключевые особенности структуры проекта.</p>
+                        <button class="act-btn btn">Оставить заявку</button>
+                    </div>
+                    <img src="./assets/img/about.png">
+                </div>
+            </div>
+            <section class="benefits">
+                <div class="wrapper">
+                    <div class="benefits__inner">
+                        <div>
+                            <img src="./assets/icons/cloud.svg">
+                            <p class="benefits__name">Онлайн конструктор</p>
+                            <p class="benefits__text">С конструктором создавайте свои уникальные дизайны</p>
+                        </div>
+                        <div>
+                            <img src="./assets/icons/time.svg">
+                            <p class="benefits__name">Принт за 24 часа</p>
+                            <p class="benefits__text">Некоторые заказы можем произвести быстрее суток</p>
+                        </div>
+                        <div>
+                            <img src="./assets/icons/lightning.svg">
+                            <p class="benefits__name">Быстрая доставка</p>
+                            <p class="benefits__text">Сотрудничаем с быстрыми и надежными службами</p>
+                        </div>
+                        <div>
+                            <img src="./assets/icons/gift.svg">
+                            <p class="benefits__name">Только ОПТ</p>
+                            <p class="benefits__text">Работаем на большие объемы брендинга</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ux">
+                <div class="wrapper">
+                    <div class="ux__inner">
+                        <img class="ux__window" src="./assets/img/window.png">
+                        <img class="ux__toolbar" src="./assets/img/toolbar.png">
+                        <div class="ux__info">
+                            <img class="ux__bg" src="./assets/img/ux__bg.png">
+                            <h3 class="ux__title">Разместите <abbr style="text-decoration: underline 5px #666">свое</abbr><br />изображение<br />как хотите</h3>
+                            <p class="ux__subtitle">В своём стремлении улучшить пользовательский<br />опыт мы упускаем, что ключевые особенности.</p>
+                            <button class="btn">Открыть конструктор</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="goods">
+                <div class="wrapper">
+                    <h3 class="title">Популярные и новые<br /><abbr>товары</abbr></h3>
+                    <div class="goods__inner">
+                        <div class="goods__item">
+                            <div class="goods__img">
+                                <img src="./assets/img/goods1.png">
+                                <p>от 75₽</p>
+                            </div>
+                            <p class="goods__name">Кружка под сублимацию "Стандарт"</p>
+                            <button class="btn">Выбрать вид +</button>
+                        </div>
+                        <div class="goods__item">
+                            <div class="goods__img">
+                                <img src="./assets/img/goods2.png">
+                                <p>от 75₽</p>
+                            </div>
+                            <p class="goods__name">Эко-ручка</p>
+                            <button class="btn">Выбрать вид +</button>
+                        </div>
+                        <div class="goods__item">
+                            <div class="goods__img">
+                                <img src="./assets/img/goods3.png">
+                                <p>от 75₽</p>
+                            </div>
+                            <p class="goods__name">Чехол-крышка для телефона iPhone 8+</p>
+                            <button class="btn">Выбрать вид +</button>
+                        </div>
+                        <div class="goods__item">
+                            <div class="goods__img">
+                                <img src="./assets/img/goods4.png">
+                                <p>от 75₽</p>
+                            </div>
+                            <p class="goods__name">Флеш-карта "Элегант"</p>
+                            <button class="btn">Выбрать вид +</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="wrapper">
+                    <div style="display: flex; align-items: center;">
+                        <h3 class="services__title">Популярные услуги</h3>
+                        <button class="main-btn btn"><img src="./assets/icons/arrow-small.svg"></button>
+                    </div>
+                    <div class="services__inner">
+                        <div class="services__item">
+                            <img src="./assets/icons/Laser.svg">
+                            <p class="services__name">Гравировка</p>
+                            <p class="services__text">Нанесем на изделия логотип, рисунок или надпись</p>
+                            <button class="item-btn btn">Подробнее</button>
+                        </div>
+                        <div class="services__item">
+                            <img src="./assets/icons/stroke.svg">
+                            <p class="services__name">Шелкография</p>
+                            <p class="services__text">Изображения высоко качества на любых материалах</p>
+                            <button class="item-btn btn">Подробнее</button>
+                        </div>
+                        <div class="services__item">
+                            <img src="./assets/icons/Press.svg">
+                            <p class="services__name">Тиснение</p>
+                            <p class="services__text">Нанесения рельефного рисунка</p>
+                            <button class="item-btn btn">Подробнее</button>
+                        </div>
+                        <div class="services__item">
+                            <img src="./assets/icons/Roller.svg">
+                            <p class="services__name">Тампопечать</p>
+                            <p class="services__text">Перенос изображения с помощью силиконового валика</p>
+                            <button class="item-btn btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="wrapper">
+                    <div class="categories__inner">
+                        <div style="display: flex; align-items: center;">
+                            <h3 class="categories__title">Основные категории</h3>
+                            <button class="main-btn btn"><img src="./assets/icons/arrow-small.svg"></button>
+                        </div>
+                        <div class="categories__items">
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/cup.svg">
+                                </div>
+                                <p>Кружки</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/trash.svg">
+                                </div>
+                                <p>Термосы</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/phone.svg">
+                                </div>
+                                <p>Аксессуары</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/pencil.svg">
+                                </div>
+                                <p>Канцелярия</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/Flash_card.svg">
+                                </div>
+                                <p>Флеш-карты</p>
+                            </div>
+                        </div>
+                        <div class="categories__items">
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/HDD.svg">
+                                </div>
+                                <p>HDD</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/Icon2.svg">
+                                </div>
+                                <p>SSD</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/basket.svg">
+                                </div>
+                                <p>Текстиль</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/gift.svg">
+                                </div>
+                                <p>Упаковка</p>
+                            </div>
+                            <div class="categories__item">
+                                <div>
+                                    <img src="./assets/icons/Vector.svg">
+                                </div>
+                                <p>Xiaomi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="review">
+                <div class="wrapper">
+                    <div class="review__inner">
+                        <img class="review__window-first" src="./assets/img/window2.png">
+                        <img class="review__window-second" src="./assets/img/window3.png">
+                        <div class="review__info">
+                            <img class="review__company" src="./assets/icons/leroymerlin.svg">
+                            <div class="review__abs">
+                                <div class="reviewer">
+                                    <img src="./assets/img/client.png">
+                                    <p style="color: #fff; font-weight: 700; font-size: 24px; margin-top: 12px;">Анна Вагнер</p>
+                                    <p style="color: #487B6C; font-weight: 500; font-size: 12px; margin-top: 4px;">«Леруа Мерлен Восток»</p>
+                                </div>
+                                <div>
+                                    <h3 class="review__title">Компания с которой хочется<br />работать снова и снова.</h3>
+                                    <p class="review__subtitle">Принимая во внимание показатели успешности,<br />синтетическое тестирование способствует повышению<br />качества анализа существующих паттернов поведения.<br />Противоположная точка зрения подразумевает.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="rev-btn btn">Больше отзывов</button>
+                        <button class="def-btn act-btn btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="wrapper">
+                    <h3 class="title">Оставайтесь <abbr>в курсе<br />событий</abbr></h3>
+                    <div class="news__inner">
+                        <div class="news-flex">
+                            <div class="news__item">
+                                <p class="news__name">Маски теперь в продаже</p>
+                                <p class="news__text">Принимая во внимание показатели успешности,<br />синтетическое тестирование способствует повышению<br />качества анализа существующих паттернов поведения. Противоположная точка зрения подразумевает.</p>
+                                <p class="news__date">02.10.2021</p>
+                            </div>
+                            <div class="news__item">
+                                <p class="news__name">Обновление сайта и новое позиционирование</p>
+                                <p class="news__text">Мы вынуждены отталкиваться от того, что начало<br />повседневной работы по формированию позиции требует<br />от нас анализа направлений по формированию анализа прогрессивного развития.</p>
+                                <p class="news__date">15.09.2021</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: flex-end;">
+                            <button class="btn">Все новости</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="qa">
+                <div class="wrapper">
+                    <h3 class="title">Часто задаваемые<br /><abbr>вопросы</abbr></h3>
+                    <div class="qa__inner">
+                        <div>
+                            <div class="qa__item">
+                                <p class="qa__text">Вы доставляете по всей России?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">А на бумаге печатаете?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">Можно сделать принт на своей вещи?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">Как быстро сможете произвести заказ?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="qa__item">
+                                <p class="qa__text">Можно заказать одну какую-то позицию?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">Из-за заграницы можно заказать?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">Можно организовать самовывоз?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                            <div class="qa__item">
+                                <p class="qa__text">А если я не юр лицо, будем сотрудничать?</p>
+                                <img src="./assets/icons/dropdown.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: flex-end;">
+                        <button class="btn">Больше вопросов</button>
+                    </div>
+                </div>
+            </section>
+            <section class="help">
+                <div class="wrapper">
+                    <div class="help__inner">
+                        <img class="help__bg" src="./assets/img/help_bg.png">
+                        <div class="help__info">
+                            <h3 class="help__title">Нужна <abbr style="text-decoration: underline 5px #666">помощь?</abbr></h3>
+                            <p class="help__subtitle">Оставьте свои данные — мы перезвоним и решим<br />вопрос. Помните, оставляя контакты вы даете<br />согласие на обработку персональных данных.</p>
+                        </div>
+                        <div class="help__data">
+                            <div>
+                                <p>Имя</p>
+                                <input type="text" placeholder="Женя"/>
+                            </div>
+                            <div style="margin-top: 12px">
+                                <p>Телефон</p>
+                                <input type="text" placeholder="+7 000 000 00 00" style="width: 230px"/>
+                                <button class="btn" style="margin-left: 28px; padding: 12px;"><img src="./assets/icons/arrow.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="./assets/icons/logo.svg">
+                </div>
+                <div>
+                    <div style="display: flex">
+                        <div style="display: flex; flex-direction: column; margin-right: 100px;">
+                            <a href="#">О компании</a>
+                            <a href="#">Портфолио</a>
+                            <a href="#">Вакансии</a>
+                            <a href="#">Диллерам</a>
+                            <a href="#">Гарантия</a>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-right: 60px;">
+                            <a href="#">Контакты</a>
+                            <a href="#">Акции</a>
+                            <a href="#">Производство</a>
+                            <a href="#">Доставка и оплата</a>
+                            <a href="#">Обмен и возврат</a>
+                        </div>
+                        <div style="display: flex; flex-direction: column; margin-right: 60px;">
+                            <p style="font-size: 14px; color: #B3B3B3; font-weight: 500; margin-bottom: 20px;">Услуги</p>
+                            <a href="#">Шелкография</a>
+                            <a href="#">Тампопечать</a>
+                            <a href="#">Гравировка</a>
+                            <a href="#">Печать на сумках</a>
+                        </div>
+                        <div style="border-top: 2px solid #E5E5E5; display: flex; padding-top: 35px;">
+                            <div style="display: flex; flex-direction: column; margin-right: 40px;">
+                                <a href="#">Гравировка</a>
+                                <a href="#">Тиснение</a>
+                                <a href="#">Клише</a>
+                                <a href="#">Полноцветная печать</a>
+                            </div>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Полимерная заливка</a>
+                                <a href="#">Услуги дизайнера</a>
+                                <a href="#">Запись на USB</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; margin-top: 64px;">
+                        <div style="display: flex; flex-direction: column; margin-right: 100px;">
+                            <p style="font-size: 14px; color: #B3B3B3; font-weight: 500; margin-bottom: 20px">Каталог</p>
+                            <a href="#">Аксессуары</a>
+                            <a href="#">Текстиль</a>
+                        </div>
+                        <div style="border-top: 2px solid #E5E5E5; display: flex; padding-top: 35px;">
+                            <div style="display: flex; flex-direction: column; margin-right: 100px;">
+                                <a href="#">Флеш-карты</a>
+                                <a href="#">Xiaomi</a>
+                            </div>
+                            <div style="display: flex; flex-direction: column; margin-right: 40px;">
+                                <a href="#">Умные Кружки</a>
+                                <a href="#">Внешние накопители</a>
+                            </div>
+                            <div style="display: flex; flex-direction: column; margin-right: 100px;">
+                                <a href="#">Канцелярия</a>
+                                <a href="#">Упаковка</a>
+                            </div>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Праздники</a>
+                                <a href="#">Остальные события</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="footer__section">
+                <div style="display: flex; align-items: center">
+                    <button class="btn" style="width: 40px; height: 40px; padding: 0;"><img src="./assets/icons/instagram.svg"></button>
+                    <button class="btn" style="width: 40px; height: 40px; padding: 0; margin-left: 28px;"><img src="./assets/icons/facebook.svg"></button>
+                    <button class="btn" style="width: 40px; height: 40px; padding: 0; margin-left: 28px;"><img src="./assets/icons/youtube.svg"></button>
+                </div>
+                <div style="display: flex;">
+                    <div>
+                        <p style="color: #B3B3B3; font-weight: 500; font-size: 14px; margin-bottom: 20px;">Москва</p>
+                        <p style="font-size: 14px; color: #000">+7 (945) 133-16-28</p>
+                    </div>
+                    <div style="margin-left: 60px">
+                        <p style="color: #B3B3B3; font-weight: 500; font-size: 14px; margin-bottom: 20px;">Улан-Удэ</p>
+                        <p style="font-size: 14px; color: #000">+7 (925) 272-83-08</p>
+                    </div>
+                    <div style="margin-left: 60px">
+                        <a href="#" style="color: #487B6C; font-weight: 500; font-size: 14px">Личный кабинет</a>
+                        <p style="margin-top: 20px; font-size: 14px; color: #000">info@reklem.ru</p>
+                    </div>
+                    <div style="margin-left: 60px">
+                        <a href="#" style="color: #487B6C; font-weight: 500; font-size: 14px">Обработка данных</a>
+                        <p style="margin-top: 20px; font-size: 14px; color: #B3B3B3; font-weight: 500">© Copyright 2021</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <div class="modal-help modal">
+            <div class="modal__content">
+                <div class="help-modal">
+                    <button class="modal-help-close"><img src="./assets/icons/cancel.svg"></button>
+                    <div>
+                        <h3 class="title">Нужна <abbr style="text-decoration: underline 5px #666">помощь?</abbr></h3>
+                        <p class="help-modal__subtitle">Оставьте свои данные — мы перезвоним и решим<br />вопрос. Помните, оставляя контакты вы даете<br />согласие на обработку персональных данных.</p>
+                    </div>
+                    <form action="https://foo.com" method="post" style="margin-left: 100px;">
+                        <div>
+                            <p class="help-modal__label">Имя</p>
+                            <input class="inp" type="text" placeholder="Введите имя" required>
+                        </div>
+                        <div style="margin-top: 30px;">
+                            <p class="help-modal__label">Телефон</p>
+                            <input class="inp" type="tel" id="phone" placeholder="+7 000 000 00 00" required>
+                        </div>
+                        <button class="send-btn btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal-sent modal">
+            <div class="modal__content">
+                <div class="sent-modal">
+                    <img src="./assets/icons/lightning.svg">
+                    <h3 class="title">Ваша заявка успешно отправлена!</h3>
+                    <p class="sent-modal__subtitle">Благодарим за заявку!</p>
+                </div>
+            </div>
+        </div>
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/js/intlTelInput.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script>
+            const input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+                initialCountry: "uz",
+                loadUtilsOnInit: "https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/js/utils.js",
+            });
+          </script>
     </body>
 </html>
