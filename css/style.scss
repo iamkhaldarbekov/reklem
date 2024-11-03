@@ -60,12 +60,13 @@ abbr {
     cursor: pointer;
     padding: 12px 30px;
     border-radius: 10px;
-    box-shadow: 0 9px 25px -4px #487B6C80;
+    box-shadow: 0 4px 7px 0 #00000026;
     transition: all 200ms ease;
     &:hover {
         color: #fff;
+        box-shadow: 0 9px 25px -4px #487B6C80;
         background-color: #10BB87;
-        transform: translateY(3px);
+        transform: translateY(-3px);
     }
 }
 
@@ -228,11 +229,13 @@ button {
                 padding: 0;
             }
             .nav__buttons-dft {
+                display: flex;
+                align-items: center;
+                margin-left: 28px;
                 &::after {
                     content: url("../assets/icons/todo.svg");
                     margin-left: 10px;
                 }
-                margin-left: 28px;
             }
         }
     }

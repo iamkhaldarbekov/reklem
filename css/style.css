@@ -52,13 +52,14 @@ abbr {
   cursor: pointer;
   padding: 12px 30px;
   border-radius: 10px;
-  box-shadow: 0 9px 25px -4px rgba(72, 123, 108, 0.5019607843);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1490196078);
   transition: all 200ms ease;
 }
 .btn:hover {
   color: #fff;
+  box-shadow: 0 9px 25px -4px rgba(72, 123, 108, 0.5019607843);
   background-color: #10BB87;
-  transform: translateY(3px);
+  transform: translateY(-3px);
 }
 
 a {
@@ -212,6 +213,8 @@ button {
   padding: 0;
 }
 .nav .nav__inner .nav__buttons .nav__buttons-dft {
+  display: flex;
+  align-items: center;
   margin-left: 28px;
 }
 .nav .nav__inner .nav__buttons .nav__buttons-dft::after {
