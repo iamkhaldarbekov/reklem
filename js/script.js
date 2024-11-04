@@ -23,7 +23,7 @@ $(function() {
     form.on("submit", e => {
         let full = true;
         $(".inp").each(function() {
-            if ($(this).val().length == 0) {
+            if ($(this).val().trim().length == 0) {
                 full = false;
             }
         })

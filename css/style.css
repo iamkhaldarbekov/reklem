@@ -116,9 +116,9 @@ button {
   color: #487B6C;
   font-weight: 500;
   font-size: 12px;
+  margin-bottom: 10px;
 }
 .help-modal input {
-  margin-top: 10px;
   width: 300px;
   border-radius: 10px;
   outline: none;
@@ -227,6 +227,7 @@ button {
   padding-top: 92px;
   padding-bottom: 356px;
   position: relative;
+  overflow: hidden;
 }
 .header .header__imgs {
   position: absolute;
@@ -267,9 +268,23 @@ button {
 .main .about button {
   margin-top: 28px;
 }
-.main .about img {
+.main .about .about__bg {
+  background-color: #eb9f26;
   width: 480px;
   height: 480px;
+  position: relative;
+  border-radius: 28px;
+  overflow: hidden;
+}
+.main .about .about__bg img:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main .about .about__bg img:last-child {
+  position: absolute;
+  top: 210px;
+  right: 10px;
 }
 .main .benefits {
   margin-top: 100px;

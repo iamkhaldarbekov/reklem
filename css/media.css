@@ -82,6 +82,9 @@
   .main .help .help__inner .help__data {
     margin-left: 28px;
   }
+  .footer {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */
